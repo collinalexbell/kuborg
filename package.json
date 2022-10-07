@@ -1,0 +1,22 @@
+{
+  "name": "kuborg",
+  "version": "1.0.0",
+  "description": "An env for borgs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuberlog/kuborg.git"
+  },
+  "keywords": [
+    "borg"
+  ],
+  "author": "kuberlog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuberlog/kuborg/issues"
+  },
+  "homepage": "https://github.com/kuberlog/kuborg#readme"
+}
