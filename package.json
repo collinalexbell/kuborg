@@ -2,9 +2,10 @@
   "name": "kuborg",
   "version": "1.0.0",
   "description": "An env for borgs",
-  "main": "index.js",
+  "main": "console.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "console": "node interfaces/console.js"
   },
   "repository": {
     "type": "git",
