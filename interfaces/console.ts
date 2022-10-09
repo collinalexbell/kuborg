@@ -1,4 +1,5 @@
 // index.js
+import { Borg } from "../src/Borg";
 import { Holon } from "../src/Holon";
 import { World } from "../src/World";
 class Console {
@@ -14,11 +15,18 @@ class Console {
 }
 
 const singleton = new Console();
-singleton.usage();
 const world = new World()
 singleton.render(world);
 const collin = new Holon("collin")
 const zeus = new Holon("zeus")
 world.addHolon(collin);
 world.addHolon(zeus);
-console.log(world.positionOf(collin))
+collin.print(world);
+zeus.print(world);
+
+function flashTheBorg(){
+   const borg = new Borg();
+   borg.flash()
+}
+
+flashTheBorg()

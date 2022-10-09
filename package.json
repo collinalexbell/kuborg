@@ -5,7 +5,7 @@
   "main": "console.js",
   "scripts": {
     "test": "jest",
-    "console": "node interfaces/console.ts"
+    "console": "tsc --project ./tsconfig.json && node build/interfaces/console.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "homepage": "https://github.com/kuberlog/kuborg#readme",
   "devDependencies": {
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/johnny-five": "^1.3.2",
+    "avrgirl-arduino": "^5.0.1",
+    "johnny-five": "^2.1.0"
   }
 }
